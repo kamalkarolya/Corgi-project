@@ -1,14 +1,4 @@
-/* #navbarScroll {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-} */
 
-/* .container-fluid {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
 body{
   background: url(../media/paw.jpg) ;
 }
@@ -25,9 +15,10 @@ body{
    .vidtext{
      display: none;
    }
-    /* video{ 
-     width: auto!important;
-   } */
+   .corgi img{
+     width: 30% !important;
+   }
+   
 
 }
 @media screen and (max-width: 578px){
@@ -59,8 +50,6 @@ body{
 #content1 {
   width: 45%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* margin: 2.63vw 4.67vw 0.87vw 4.67vw;
-    padding: 3.44vw 1.46vw 3.07vw 7.32vw; */
     margin: 0vw;
     padding: 3vw;
     background-color: white;
@@ -77,8 +66,9 @@ body{
     width: 19.48vw;
   }
   #content1 div img {
-    width: 65%;
+    width: 94%;
     height: auto;
+    border-radius: 12px;
   }
   .boxes{
 
@@ -90,50 +80,14 @@ body{
     background-color: #f8f9fa57!important;
 }
 .vidtext{
+  text-shadow: 2px 2px 4px #000000;
   text-align: center;
   position:absolute;
-  top:80%;
+  top:59%;
   
   z-index:1;
 }
-  /* .corgi_vid
-{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-self: center;   [ abe chutiye align self or content saath m ]
-    align-content: center; [kunal tam to bade heavy driver nikle]
-    text-align: center;
-}
  
-.corgi_vid video
-{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    object-fit: cover;
-}
-
-.corgi_vid .wt
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-    position: relative;
-}
-
-.corgi_vid .wt h1
-{
-    font-weight: 300;
-} */
-/* nav div a i{
-  transform: rotateZ(61deg);
-} */
  video{
   width: 100%;
 
@@ -155,17 +109,6 @@ body{
   margin-bottom: 5vw;
 }
 
-/* FEEDBACK */
-/* .feedback{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0vw 0vw 4vw 0vw;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.form-floating{
-  width: 50%;
-} */
 
 .corgi img{
   margin: 0px 0px -33px 5vw;

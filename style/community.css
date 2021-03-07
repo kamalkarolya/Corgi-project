@@ -21,10 +21,19 @@
 }
 
 .para {
+  margin-bottom: 20px;
   border-radius: 24px;
   text-align: justify;
   padding: 38px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   background-color: white;
   width: 85%;
+}
+
+
+
+
+.card image{
+  margin-top: 100px;
+  width: 100%;
 }
